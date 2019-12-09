@@ -656,7 +656,7 @@
 #define Z_STEPPER_AUTO_ALIGN
 #if ENABLED(Z_STEPPER_AUTO_ALIGN)
   // Define probe X and Y positions for Z1, Z2 [, Z3]
-  #define Z_STEPPER_ALIGN_XY { {  0, 150 }, { 300,  150 } }
+  #define Z_STEPPER_ALIGN_XY { {  250, 150 }, { 50,  150 } }
 
   // Provide Z stepper positions for more rapid convergence in bed alignment.
   // Currently requires triple stepper drivers.
@@ -674,7 +674,7 @@
   #endif
 
   // Set number of iterations to align
-  #define Z_STEPPER_ALIGN_ITERATIONS 3
+  #define Z_STEPPER_ALIGN_ITERATIONS 10
 
   // Enable to restore leveling setup after operation
   #define RESTORE_LEVELING_AFTER_G34
