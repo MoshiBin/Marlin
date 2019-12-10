@@ -476,9 +476,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker
-  #define DEFAULT_Kp 14.58
-  #define DEFAULT_Ki 1.14
-  #define DEFAULT_Kd 46.57
+  //#define DEFAULT_Kp 14.58
+  //#define DEFAULT_Ki 1.14
+  //#define DEFAULT_Kd 46.57
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -489,6 +489,11 @@
   //#define DEFAULT_Kp 63.0
   //#define DEFAULT_Ki 2.25
   //#define DEFAULT_Kd 440
+
+  // Artillery Sidewinder X1
+  #define DEFAULT_Kp 10.69
+  #define DEFAULT_Ki 0.70
+  #define DEFAULT_Kd 40.92
 
 #endif // PIDTEMP
 
