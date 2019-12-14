@@ -491,9 +491,9 @@
   //#define DEFAULT_Kd 440
 
   // Artillery Sidewinder X1
-  #define DEFAULT_Kp 10.69
-  #define DEFAULT_Ki 0.70
-  #define DEFAULT_Kd 40.92
+  #define DEFAULT_Kp 25.24
+  #define DEFAULT_Ki 1.73
+  #define DEFAULT_Kd 92.01
 
 #endif // PIDTEMP
 
@@ -926,7 +926,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { 28, -33, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { 0, 28, 0 }
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 35
