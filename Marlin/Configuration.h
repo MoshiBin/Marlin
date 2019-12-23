@@ -491,9 +491,9 @@
   //#define DEFAULT_Kd 440
 
   // Artillery Sidewinder X1
-  #define DEFAULT_Kp 25.24
-  #define DEFAULT_Ki 1.73
-  #define DEFAULT_Kd 92.01
+  #define DEFAULT_Kp 26.89
+  #define DEFAULT_Ki 2.17
+  #define DEFAULT_Kd 83.16
 
 #endif // PIDTEMP
 
